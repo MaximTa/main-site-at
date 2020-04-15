@@ -20,7 +20,7 @@ public class SearchTest extends BaseTest {
 //            Форум
 //            Тесты
 //            Проекты и компании
-
+//3
     @Test
     void name() {
         driver.get("https://geekbrains.ru/courses");
