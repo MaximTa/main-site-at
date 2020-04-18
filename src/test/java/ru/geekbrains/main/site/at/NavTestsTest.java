@@ -8,7 +8,7 @@ import ru.geekbrains.main.site.at.base.BaseTest;
 
 public class NavTestsTest extends BaseTest {
     @Test
-    void checkNavigation() throws InterruptedException {
+    void checkNavigationTests() throws InterruptedException {
         driver.get("https://geekbrains.ru/tests");
         WebElement buttonTests = driver.findElement(By.cssSelector("[class*=\"main-page-hidden\"] [href=\"/tests\"]"));
         buttonTests.click();

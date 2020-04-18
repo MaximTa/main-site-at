@@ -9,7 +9,7 @@ import ru.geekbrains.main.site.at.base.BaseTest;
 
 public class NavCareerTest extends BaseTest {
     @Test
-    void checkNavigation() throws InterruptedException {
+    void checkNavigationCareer() throws InterruptedException {
         driver.get("https://geekbrains.ru/career");
         WebElement buttonCareer = driver.findElement(By.cssSelector("[class*=\"main-page-hidden\"] [href=\"/career\"]"));
         buttonCareer.click();

@@ -9,7 +9,7 @@ import ru.geekbrains.main.site.at.base.BaseTest;
 public class NavCoursesTest extends BaseTest {
 
     @Test
-    void checkNavigation() throws InterruptedException {
+    void checkNavigationCourses() throws InterruptedException {
         driver.get("https://geekbrains.ru/courses");
 
         //Курсы

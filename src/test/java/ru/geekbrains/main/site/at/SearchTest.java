@@ -1,6 +1,7 @@
 package ru.geekbrains.main.site.at;
 
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -9,17 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.geekbrains.main.site.at.base.BaseTest;
 
 public class SearchTest extends BaseTest {
-//    Перейти на сайт https://geekbrains.ru/courses
-//    Нажать на кнопку Поиск
-//    В поле Поиск ввести текст: java
-//    Проверить что отобразились блоки:
-//            Профессии
-//            Курсы
-//            Вебинары
-//            Блоги
-//            Форум
-//            Тесты
-//            Проекты и компании
+
 //3
     @Test
     void name() {
@@ -63,7 +54,7 @@ public class SearchTest extends BaseTest {
 //        Assertions.assertEquals("Блоги", textBlogs.getText());
 //        Assertions.assertEquals("Форум", textForum.getText());
 //        Assertions.assertEquals("Тесты", textTests.getText());
-//        Assertions.assertEquals("Проекты и компании", textProjectsAndCompanies.getText());
+       Assertions.assertEquals("Проекты и компании", textProjectsAndCompanies.getText());
 
 
     }
