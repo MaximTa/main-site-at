@@ -31,6 +31,15 @@ public class SearchTest extends BaseTest {
 
 
         WebDriverWait wait = new WebDriverWait(driver, 40);
+
+    //    public void givenNumber_whenConditions_thenCorrect () {
+   //         Integer intVal = 6;
+  //          assertThat(intVal, allOf(
+  //                  greaterThan(2),
+  //                  lessThanOrEqualTo(7))
+  //          );
+  //      }
+
 //
 //        wait.until(ExpectedConditions.textToBe(By.xpath("//header/h2[text()='Профессии']"),"Профессии"));
 //        wait.until(ExpectedConditions.textToBe(By.xpath("//header/h2[text()='Курсы']"),"Курсы"));

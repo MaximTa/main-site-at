@@ -11,12 +11,11 @@ import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-   protected WebDriver driver;
+    public WebDriver driver;
 
     @BeforeEach
     void setUp() {
         WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
 
         ChromeOptions options  = new ChromeOptions();
         options.addArguments("--disable-popup-blocking");
