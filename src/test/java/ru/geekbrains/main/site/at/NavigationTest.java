@@ -18,7 +18,7 @@ public class NavigationTest extends BaseTest{
     @ParameterizedTest(name = "{index} => переход на страницу {0}")
     @MethodSource("stringProvider")
     void checkNavigation(String namePage) {
-        driver.get("https://geekbrains.ru/career");
+        driver.get("https://geekbrains.ru/courses");
 
         PageFactory.initElements(driver, Page.class)
                 .getNavigation().clickButton(namePage)
