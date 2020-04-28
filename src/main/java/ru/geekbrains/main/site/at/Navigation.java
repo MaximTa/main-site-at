@@ -24,7 +24,7 @@ public class Navigation {
 
     @FindBy(css = "[class*=\"main-page-hidden\"] [href=\"/career\"]")
     private WebElement buttonCareer;
-
+//7
     private WebDriver driver;
 
     public Navigation(WebDriver driver) {
