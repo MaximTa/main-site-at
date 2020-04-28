@@ -30,7 +30,7 @@ public class SearchTest extends BaseTest {
         WebElement textTests = driver.findElement(By.xpath("//header/h2[text()='Тесты']"));
         WebElement textProjectsAndCompanies = driver.findElement(By.xpath("//header/h2[text()='Проекты и компании']"));
 
-
+//4
         WebDriverWait wait = new WebDriverWait(driver, 40);
         assertThat(Integer.parseInt(textProfession.getText()), greaterThanOrEqualTo(2));
         assertThat(Integer.parseInt(textCourses.getText()), greaterThan(15));
